@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Entity
 public class Player {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
 
     @Value("${null}")

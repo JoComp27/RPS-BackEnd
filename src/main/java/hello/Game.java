@@ -39,4 +39,36 @@ public class Game {
                 ", gameState=" + gameState +
                 '}';
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Play getPlayerPlay() {
+        return playerPlay;
+    }
+
+    public void setPlayerPlay(Play playerPlay) {
+        this.playerPlay = playerPlay;
+    }
+
+    public Play getOpponentPlay() {
+        return opponentPlay;
+    }
+
+    public void setOpponentPlay(Play opponentPlay) {
+        this.opponentPlay = opponentPlay;
+    }
+
+    public WinState getGameState() {
+        return gameState;
+    }
+
+    public void setGameState(WinState gameState) {
+        this.gameState = gameState;
+    }
 }
