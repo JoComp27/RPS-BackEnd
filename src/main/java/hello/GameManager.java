@@ -2,9 +2,6 @@ package hello;
 
 import hello.Enums.Play;
 import hello.Enums.WinState;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 
 
 /**
@@ -19,13 +16,13 @@ public class GameManager {
 
     private Opponent opponent;
 
-    public GameManager(){
+    public GameManager() {
         this.player = new Player();
         this.opponent = new RandomOpponent();
         this.gameState = null;
     }
 
-    public void playGame(Play playerPlay){
+    public void playGame(Play playerPlay) {
         player.setCurrentPlay(playerPlay);
         opponent.makePlay();
         setGameState(calculateResult(player, opponent));
@@ -39,37 +36,29 @@ public class GameManager {
         this.gameState = gameState;
     }
 
-    public static WinState calculateResult(Player player, Opponent opponent){
-        if(player.getCurrentPlay() == Play.PAPER){
-            if(opponent.getCurrentPlay() == Play.ROCK){
+    public static WinState calculateResult(Player player, Opponent opponent) {
+        if (player.getCurrentPlay() == Play.PAPER) {
+            if (opponent.getCurrentPlay() == Play.ROCK) {
                 return WinState.WIN;
-            }
-            else if(opponent.getCurrentPlay() == Play.SCISSORS){
+            } else if (opponent.getCurrentPlay() == Play.SCISSORS) {
                 return WinState.LOSS;
-            }
-            else{
+            } else {
                 return WinState.DRAW;
             }
-        }
-        else if(player.getCurrentPlay() == Play.ROCK){
-            if(opponent.getCurrentPlay() == Play.SCISSORS){
+        } else if (player.getCurrentPlay() == Play.ROCK) {
+            if (opponent.getCurrentPlay() == Play.SCISSORS) {
                 return WinState.WIN;
-            }
-            else if(opponent.getCurrentPlay() == Play.PAPER){
+            } else if (opponent.getCurrentPlay() == Play.PAPER) {
                 return WinState.LOSS;
-            }
-            else{
+            } else {
                 return WinState.DRAW;
             }
-        }
-        else{
-            if(opponent.getCurrentPlay() == Play.PAPER){
+        } else {
+            if (opponent.getCurrentPlay() == Play.PAPER) {
                 return WinState.WIN;
-            }
-            else if(opponent.getCurrentPlay() == Play.ROCK){
+            } else if (opponent.getCurrentPlay() == Play.ROCK) {
                 return WinState.LOSS;
-            }
-            else{
+            } else {
                 return WinState.DRAW;
             }
         }

@@ -15,14 +15,14 @@ import javax.persistence.Id;
 public class Game {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private Play playerPlay;
     private Play opponentPlay;
     private WinState gameState;
 
-    protected Game(){}
+    protected Game() {}
 
     public Game(Play playerPlay, Play opponentPlay, WinState gameState) {
         this.playerPlay = playerPlay;

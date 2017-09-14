@@ -12,7 +12,7 @@ public class RandomOpponent extends Opponent {
 
     @Override
     public void makePlay() {
-        int randomNumber = 0 + (int)(Math.random() * 3);
+        int randomNumber = 0 + (int) (Math.random() * 3);
         switch (randomNumber) {
             case 0:
                 setCurrentPlay(Play.ROCK);

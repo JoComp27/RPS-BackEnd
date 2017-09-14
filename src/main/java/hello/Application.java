@@ -3,7 +3,6 @@ package hello;
 import hello.Enums.Play;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,12 +16,12 @@ public class Application {
 
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
-    public static void main(String []args){
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
     @Bean
-    public CommandLineRunner demo(GameRepository repository){
+    public CommandLineRunner demo(GameRepository repository) {
 
         return (args) -> {
             GameManager manager = new GameManager();
@@ -36,7 +35,7 @@ public class Application {
         };
     }
 
-    public void playGame(GameRepository repository, GameManager manager){
+    public void playGame(GameRepository repository, GameManager manager) {
         manager.playGame(Play.ROCK);
         repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
         log.info(manager.toString());

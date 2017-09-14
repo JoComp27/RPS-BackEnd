@@ -24,21 +24,18 @@ public class Player {
         this.currentPlay = null;
     }
 
-    public Player(Play currentPlay){
+    public Player(Play currentPlay) {
         this.currentPlay = currentPlay;
     }
 
-    public Player(String currentPlay){
-        if(currentPlay.equals("ROCK")){
+    public Player(String currentPlay) {
+        if (currentPlay.equals("ROCK")) {
             this.currentPlay = Play.ROCK;
-        }
-        else if(currentPlay.equals("PAPER")){
+        } else if (currentPlay.equals("PAPER")) {
             this.currentPlay = Play.PAPER;
-        }
-        else if(currentPlay.equals("SCISSORS")){
+        } else if (currentPlay.equals("SCISSORS")) {
             this.currentPlay = Play.SCISSORS;
-        }
-        else{
+        } else {
             System.out.println("Error in Player String constructor : Input doesn't match any type : currentPlay set to null");
             this.currentPlay = null;
         }
