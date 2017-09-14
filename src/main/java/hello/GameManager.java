@@ -9,16 +9,14 @@ import org.springframework.stereotype.Component;
 /**
  * Created by jonathan.cournoyer on 13/09/17.
  */
-@Component
+
 public class GameManager {
 
 
     private WinState gameState;
 
-    @Autowired
     private Player player;
 
-    @Autowired
     private Opponent opponent;
 
     public GameManager(){
