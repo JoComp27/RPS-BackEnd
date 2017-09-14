@@ -28,19 +28,18 @@ public class Application {
             GameManager manager = new GameManager();
 
             for (int i = 0; i < 10; i++) {
-                manager.playGame(Play.ROCK);
-                repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
-                log.info(manager.toString());
+                playGame(repository, manager);
             }
 
-            log.info("Games in which the player played Rock: ");
-            log.info("________________________________________");
-//            for(Game game : repository.findByPlayerPlay(Play.ROCK)){
-//                log.info(game.toString());
-//            }
             log.info("");
 
         };
+    }
+
+    public void playGame(GameRepository repository, GameManager manager){
+        manager.playGame(Play.ROCK);
+        repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
+        log.info(manager.toString());
     }
 
 }

@@ -3,13 +3,13 @@ package hello;
 import hello.Enums.Play;
 import hello.Enums.WinState;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 
 /**
  * Created by jonathan.cournoyer on 13/09/17.
  */
-
 public class GameManager {
 
 
