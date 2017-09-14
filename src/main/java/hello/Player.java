@@ -17,7 +17,6 @@ public class Player {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
 
-    @Value("${null}")
     private Play currentPlay;
 
     public Player() {
