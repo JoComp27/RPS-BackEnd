@@ -20,25 +20,25 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
-    public CommandLineRunner demo(GameRepository repository) {
-
-        return (args) -> {
-            GameManager manager = new GameManager();
-
-            for (int i = 0; i < 10; i++) {
-                playGame(repository, manager);
-            }
-
-            log.info("");
-
-        };
-    }
-
-    public void playGame(GameRepository repository, GameManager manager) {
-        manager.playGame(Play.ROCK);
-        repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
-        log.info(manager.toString());
-    }
+//    @Bean
+//    public CommandLineRunner demo(GameRepository repository) {
+//
+//        return (args) -> {
+//            GameManager manager = new GameManager();
+//
+//            for (int i = 0; i < 10; i++) {
+//                playGame(repository, manager);
+//            }
+//
+//            log.info("");
+//
+//        };
+//    }
+//
+//    public void playGame(GameRepository repository, GameManager manager) {
+//        manager.playGame(Play.ROCK);
+//        repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
+//        log.info(manager.toString());
+//    }
 
 }

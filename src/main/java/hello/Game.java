@@ -30,13 +30,15 @@ public class Game {
         this.gameState = gameState;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    //for some reason the id on the returned JSON game object shows as null
+    //we don't really need id though so i just commented out its getter
+//    public Long getId() {
+//        return id;
+//    }
+//
+//    public void setId(Long id) {
+//        this.id = id;
+//    }
 
     public Play getPlayerPlay() {
         return playerPlay;
