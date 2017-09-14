@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9868ce9-3b91-42c1-b159-f345bca085cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/PlayerRepository.java" />
+    <list default="true" id="d9868ce9-3b91-42c1-b159-f345bca085cc" name="Default" comment="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Application.class" afterPath="$PROJECT_DIR$/target/classes/hello/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Game.class" afterPath="$PROJECT_DIR$/target/classes/hello/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Enums/Play.class" afterPath="$PROJECT_DIR$/target/classes/hello/Enums/Play.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Enums/WinState.class" afterPath="$PROJECT_DIR$/target/classes/hello/Enums/WinState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/GameManager.class" afterPath="$PROJECT_DIR$/target/classes/hello/GameManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Player.class" afterPath="$PROJECT_DIR$/target/classes/hello/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/GameRepository.class" afterPath="$PROJECT_DIR$/target/classes/hello/GameRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/RandomOpponent.class" afterPath="$PROJECT_DIR$/target/classes/hello/RandomOpponent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Game.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Player.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +26,32 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="195">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#677#678#0" expanded="true" />
-                <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-                <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="900">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#988#989#0" expanded="true" />
@@ -71,8 +78,8 @@
       <file leaf-file-name="GameRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +90,8 @@
       <file leaf-file-name="RandomOpponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/RandomOpponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,18 +105,18 @@
             <state relative-caret-position="-273">
               <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
-                <marker date="1505412668004" expanded="true" signature="425:545" ph="{...}" />
-                <marker date="1505412668004" expanded="true" signature="588:724" ph="{...}" />
-                <marker date="1505412668004" expanded="true" signature="760:771" ph=" { " />
-                <marker date="1505412668004" expanded="true" signature="788:794" ph=" }" />
-                <marker date="1505412668004" expanded="true" signature="844:855" ph=" { " />
-                <marker date="1505412668004" expanded="true" signature="882:888" ph=" }" />
-                <marker date="1505412668004" expanded="true" signature="966:2003" ph="{...}" />
-                <marker date="1505412668004" expanded="true" signature="2034:2045" ph=" { " />
-                <marker date="1505412668004" expanded="true" signature="2059:2065" ph=" }" />
-                <marker date="1505412668004" expanded="true" signature="2100:2111" ph=" { " />
-                <marker date="1505412668004" expanded="true" signature="2127:2133" ph=" }" />
-                <marker date="1505412668004" expanded="true" signature="2178:2369" ph="{...}" />
+                <marker date="1505413008061" expanded="true" signature="385:505" ph="{...}" />
+                <marker date="1505413008061" expanded="true" signature="548:684" ph="{...}" />
+                <marker date="1505413008061" expanded="true" signature="720:731" ph=" { " />
+                <marker date="1505413008061" expanded="true" signature="748:754" ph=" }" />
+                <marker date="1505413008061" expanded="true" signature="804:815" ph=" { " />
+                <marker date="1505413008061" expanded="true" signature="842:848" ph=" }" />
+                <marker date="1505413008061" expanded="true" signature="926:1963" ph="{...}" />
+                <marker date="1505413008061" expanded="true" signature="1994:2005" ph=" { " />
+                <marker date="1505413008061" expanded="true" signature="2019:2025" ph=" }" />
+                <marker date="1505413008061" expanded="true" signature="2060:2071" ph=" { " />
+                <marker date="1505413008061" expanded="true" signature="2087:2093" ph=" }" />
+                <marker date="1505413008061" expanded="true" signature="2138:2329" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,15 +126,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
+                <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+                <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+                <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+                <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+                <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+                <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+                <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -209,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/main/java/hello/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/PlayerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Player.java" />
+        <option value="$PROJECT_DIR$/target/classes/hello/RandomOpponent.class" />
       </list>
     </option>
   </component>
@@ -281,36 +290,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hello" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPS-BackEnd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPS-BackEnd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Enums" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -763,7 +742,7 @@
       <workItem from="1505390491456" duration="378000" />
       <workItem from="1505390883859" duration="10000" />
       <workItem from="1505390929747" duration="2886000" />
-      <workItem from="1505402111312" duration="7654000" />
+      <workItem from="1505402111312" duration="8296000" />
     </task>
     <task id="LOCAL-00001" summary="fixed random number generator">
       <created>1505411504538</created>
@@ -779,11 +758,25 @@
       <option name="project" value="LOCAL" />
       <updated>1505412144461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added getters and setters for game, made player rest repo">
+      <created>1505413000186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505413000186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class">
+      <created>1505413304911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505413304911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14534000" />
+    <option name="totallyTimeSpent" value="15176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -791,7 +784,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -807,7 +800,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2106136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -831,7 +824,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed random number generator" />
     <MESSAGE value="fixed spring booting problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed spring booting problems" />
+    <MESSAGE value="added getters and setters for game, made player rest repo" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -852,50 +847,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Opponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -920,12 +871,13 @@
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -990,12 +942,13 @@
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1008,8 +961,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
-            <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1056,12 +1007,13 @@
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1074,8 +1026,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
-            <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1096,8 +1046,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
-            <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1136,12 +1084,13 @@
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1178,8 +1127,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
-            <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1216,12 +1163,13 @@
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1301,57 +1249,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/RandomOpponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-273">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <marker date="1505412668004" expanded="true" signature="425:545" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="588:724" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="760:771" ph=" { " />
-            <marker date="1505412668004" expanded="true" signature="788:794" ph=" }" />
-            <marker date="1505412668004" expanded="true" signature="844:855" ph=" { " />
-            <marker date="1505412668004" expanded="true" signature="882:888" ph=" }" />
-            <marker date="1505412668004" expanded="true" signature="966:2003" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="2034:2045" ph=" { " />
-            <marker date="1505412668004" expanded="true" signature="2059:2065" ph=" }" />
-            <marker date="1505412668004" expanded="true" signature="2100:2111" ph=" { " />
-            <marker date="1505412668004" expanded="true" signature="2127:2133" ph=" }" />
-            <marker date="1505412668004" expanded="true" signature="2178:2369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <marker date="1505412668004" expanded="true" signature="778:1421" ph="{...}" />
-            <marker date="1505412668004" expanded="true" signature="1259:1384" ph="//..." />
+            <marker date="1505413008061" expanded="true" signature="385:505" ph="{...}" />
+            <marker date="1505413008061" expanded="true" signature="548:684" ph="{...}" />
+            <marker date="1505413008061" expanded="true" signature="720:731" ph=" { " />
+            <marker date="1505413008061" expanded="true" signature="748:754" ph=" }" />
+            <marker date="1505413008061" expanded="true" signature="804:815" ph=" { " />
+            <marker date="1505413008061" expanded="true" signature="842:848" ph=" }" />
+            <marker date="1505413008061" expanded="true" signature="926:1963" ph="{...}" />
+            <marker date="1505413008061" expanded="true" signature="1994:2005" ph=" { " />
+            <marker date="1505413008061" expanded="true" signature="2019:2025" ph=" }" />
+            <marker date="1505413008061" expanded="true" signature="2060:2071" ph=" { " />
+            <marker date="1505413008061" expanded="true" signature="2087:2093" ph=" }" />
+            <marker date="1505413008061" expanded="true" signature="2138:2329" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1359,41 +1273,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <marker date="1505413049172" expanded="true" signature="483:494" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="518:524" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="559:570" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="589:595" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="645:656" ph=" { " />
+            <marker date="1505413049172" expanded="true" signature="687:693" ph=" }" />
+            <marker date="1505413049172" expanded="true" signature="738:846" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Enums/Play.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/hello/Application.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/PlayerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="900">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#988#989#0" expanded="true" />
@@ -1413,6 +1320,72 @@
             <element signature="e#1533#1534#0" expanded="true" />
             <element signature="e#1575#1576#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/RandomOpponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/PlayerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Enums/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/hello/RandomOpponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
