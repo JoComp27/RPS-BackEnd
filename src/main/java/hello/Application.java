@@ -35,9 +35,9 @@ public class Application {
 
             log.info("Games in which the player played Rock: ");
             log.info("________________________________________");
-            for(Game game : repository.findByPlayerPlay(Play.ROCK)){
-                log.info(game.toString());
-            }
+//            for(Game game : repository.findByPlayerPlay(Play.ROCK)){
+//                log.info(game.toString());
+//            }
             log.info("");
 
         };
