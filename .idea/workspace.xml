@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9868ce9-3b91-42c1-b159-f345bca085cc" name="Default" comment="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/AntiHumanOpponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Enums/aiType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/History.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hello/Tools.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hello/GameManager.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Application.class" afterPath="$PROJECT_DIR$/target/classes/hello/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Enums/Play.class" afterPath="$PROJECT_DIR$/target/classes/hello/Enums/Play.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Game.class" afterPath="$PROJECT_DIR$/target/classes/hello/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Opponent.class" afterPath="$PROJECT_DIR$/target/classes/hello/Opponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/Player.class" afterPath="$PROJECT_DIR$/target/classes/hello/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello/RandomOpponent.class" afterPath="$PROJECT_DIR$/target/classes/hello/RandomOpponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="d9868ce9-3b91-42c1-b159-f345bca085cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Game.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/GameController.java" afterPath="$PROJECT_DIR$/src/main/java/hello/GameController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/GameManager.java" afterPath="$PROJECT_DIR$/src/main/java/hello/GameManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/Opponent.java" afterPath="$PROJECT_DIR$/src/main/java/hello/Opponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/RandomOpponent.java" afterPath="$PROJECT_DIR$/src/main/java/hello/RandomOpponent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -796,7 +778,7 @@
       <workItem from="1505390929747" duration="2886000" />
       <workItem from="1505402111312" duration="8296000" />
       <workItem from="1505476507727" duration="459000" />
-      <workItem from="1505480853204" duration="19490000" />
+      <workItem from="1505480853204" duration="19551000" />
     </task>
     <task id="LOCAL-00001" summary="fixed random number generator">
       <created>1505411504538</created>
@@ -833,15 +815,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505416746320</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added AntiHuman + Type variable">
+      <created>1505501903815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505501903815</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35932000" />
+    <option name="totallyTimeSpent" value="35993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -887,7 +875,8 @@
     <MESSAGE value="fixed spring booting problems" />
     <MESSAGE value="added getters and setters for game, made player rest repo" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/JoComp27/RPS-BackEnd into Erin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/hello/Player.java&#10;#&#9;target/classes/hello/Application.class&#10;#&#9;target/classes/hello/GameManager.class" />
+    <MESSAGE value="Added AntiHuman + Type variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AntiHuman + Type variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,6 +1151,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
