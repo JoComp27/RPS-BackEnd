@@ -14,12 +14,12 @@ public class AntiHumanOpponent extends Opponent {
         if (currentGame == 0) {
             randomGame();
         } else {
-            if (history.getHistory()[currentGame - 1].getGameState() == WinState.WIN) {
+            if (history.getHistory()[currentGame - 1].getGameState() == WinState.LOSS) {
                 //If you just won, play what your opponent just played
-                setCurrentPlay(history.getHistory()[currentGame - 1].getPlayerPlay());
-            } else if (history.getHistory()[currentGame - 1].getGameState() == WinState.LOSS) {
+                setCurrentPlay(history.getHistory()[currentGame - 1].getOpponentPlay());
+            } else if (history.getHistory()[currentGame - 1].getGameState() == WinState.WIN) {
                 // If you just lost, play what would lose against what you just played
-                setCurrentPlay(Tools.Loss(history.getHistory()[currentGame - 1].getOpponentPlay()));
+                setCurrentPlay(Tools.Win(history.getHistory()[currentGame - 1].getPlayerPlay()));
             } else {//If its a draw, play something else randomly
                 randomGame(history.getHistory()[currentGame - 1].getPlayerPlay());
             }
