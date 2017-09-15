@@ -1,6 +1,7 @@
 package hello;
 
 import hello.Enums.Play;
+import hello.Enums.aiType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -15,7 +16,7 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
     private static final Logger log = LoggerFactory.getLogger(Application.class);
-
+    GameManager manager = new GameManager();
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -24,21 +25,17 @@ public class Application {
 //    public CommandLineRunner demo(GameRepository repository) {
 //
 //        return (args) -> {
-//            GameManager manager = new GameManager();
 //
-//            for (int i = 0; i < 10; i++) {
-//                playGame(repository, manager);
+//
+//            for (int i = 0; i < 30; i++) {
+//                manager.playGame(Play.ROCK, aiType.ANTIHUMAN);
+//                //repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState(), manager.getType()));
+//                log.info(manager.toString());
+//              //  log.info(manager.getManagerOpponent().getCurrentSchemeLogger()); WHEN PLAYING MANAGER OPPONENT
 //            }
 //
 //            log.info("");
 //
 //        };
 //    }
-//
-//    public void playGame(GameRepository repository, GameManager manager) {
-//        manager.playGame(Play.ROCK);
-//        repository.save(new Game(manager.getPlayer().getCurrentPlay(), manager.getOpponent().getCurrentPlay(), manager.getGameState()));
-//        log.info(manager.toString());
-//    }
-
 }

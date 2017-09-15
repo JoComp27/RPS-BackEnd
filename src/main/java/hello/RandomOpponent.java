@@ -11,7 +11,7 @@ import javax.persistence.Entity;
 public class RandomOpponent extends Opponent {
 
     @Override
-    public void makePlay() {
+    public void makePlay(History history, int currentGame) {
         int randomNumber = (int) (Math.random() * 3);
         switch (randomNumber) {
             case 0:

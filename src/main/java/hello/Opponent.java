@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 @Entity
 public abstract class Opponent extends Player {
 
-    public abstract void makePlay();
+    public abstract void makePlay(History history, int currentGame);
 
     @Override
     public String toString() {
