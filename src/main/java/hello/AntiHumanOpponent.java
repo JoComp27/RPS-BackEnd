@@ -16,7 +16,7 @@ public class AntiHumanOpponent extends Opponent {
         } else {
             if (history.getHistory()[currentGame - 1].getGameState() == WinState.LOSS) {
                 //If you just won, play what your opponent just played
-                setCurrentPlay(history.getHistory()[currentGame - 1].getOpponentPlay());
+                setCurrentPlay(history.getHistory()[currentGame - 1].getPlayerPlay());
             } else if (history.getHistory()[currentGame - 1].getGameState() == WinState.WIN) {
                 // If you just lost, play what would lose against what you just played
                 setCurrentPlay(Tools.Win(history.getHistory()[currentGame - 1].getPlayerPlay()));
